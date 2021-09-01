@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 6</title>
+
+    <style>
+        body{
+            background-color:rgb(112, 141, 196);
+        }
+        .heading{
+            font-size: 45px;
+            font-weight: bold;
+            color:blue;
+            text-align: center;
+            margin: 30px;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+        }
+        .box{
+            width:20%;
+            background-color: white;
+            margin:15px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 25px;
+            padding: 20px;
+            
+        }
+        .box img{
+            height:200px;
+            width:270px;
+            border-radius: 25px;
+            
+        }
+        .box h2{
+            text-align: center;
+            font-size: 23px;
+            margin: 15px;
+        }
+        .box a{
+            background-color: blue;
+            text-decoration: none;
+            color:white;
+            padding:10px;
+            justify-content: center;
+            text-align: center;
+            border-radius: 20px;
+        }
+        .box a:hover{
+            background-color:red;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="heading">
+        Practical 6 : Creating a layout using CSS Properties
+    </div>
+    <div class="content">
+        <div class="box">
+            <img src="./html_png.jpg" alt="HTML">
+            <h2>Introduction to HTML</h2>
+            <p>HTML is the standard markup language for Web pages. With HTML you can create your own Website. </p>
+            <a href="./html.html">Read more</a>
+        </div>
+
+
+        <div class="box">
+            <img src="./css_png.png" alt="CSS">
+            <h2>Introduction to CSS</h2>
+            <p>CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.</p>
+            <a href="./CSS.html">Read more</a>
+
+        </div>
+
+        <div class="box">
+            <img src="./javascript_png.jpg" alt="JavaScript">
+            <h2>Introduction to JavaScript</h2>
+            <p>JavaScript is the world's most popular programming language. JavaScript is the programming language of the Web. </p>
+            <a href="./JS.html">Read more</a>
+        </div>
+
+        <div class="box">
+            <img src="./bootstrap_png2.jpg" alt="Bootstrap">
+            <h2>Introduction to BootStrap</h2>
+            <p>Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites.</p>
+            <a href="./Bootstrap.html">Read more</a>
+        </div>
+    </div>
+</body>
+</html>
